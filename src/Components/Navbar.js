@@ -13,8 +13,7 @@ function Navbar(props) {
                     <div className="collapse navbar-collapse" id="navbarColor02">
                         <ul className="navbar-nav me-auto">
                             <li className="nav-item">
-                                <a className="nav-link active" href="/about">About
-                                </a>
+                                
                             </li>
                         </ul>
                         <div className={`form-check form-switch text-${props.mode==='light' ? 'dark' :'light'}`}>
